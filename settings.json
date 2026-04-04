@@ -1,8 +1,8 @@
 {
 "type": "json_settings",
 "name": "GamaToUnityUDP_Multi_model_VR",
-"splashscreen": "./models/snapshots/snapshot.png",
-"model_file_path": "./models\testF-VR.gaml",
+"splashscreen": "./snapshots/snapshot.png",
+"model_file_path": "./models/AEDES-Map-VR.gaml",
 "experiment_name": "vr_xp",
 "minimal_players": "1",
 "maximal_players": "4",
