@@ -1,6 +1,6 @@
 model GamaToUnityUDP_Multi_model_VR
 
-import "testF.gaml"
+import "AEDES-Map.gaml"
 
 species unity_linker parent: abstract_unity_linker {
 	string player_species <- string(unity_player);
@@ -47,7 +47,7 @@ species unity_linker parent: abstract_unity_linker {
 		unity_properties << up_dog;
 
 
-		unity_aspect home_aspect <- prefab_aspect("Prefabs/Visual Prefabs/City/Vehicles/Home",100.0,50.0,100.0,0.0,precision);
+		unity_aspect home_aspect <- prefab_aspect("Prefabs/Visual Prefabs/City/Vehicles/Home",0.8,-5.0,0.8,0.0,precision);
 		up_home <- geometry_properties("home","",home_aspect,#no_interaction,false);
 		unity_properties << up_home;
 
